@@ -4,7 +4,7 @@ Este es un pequeño proyecto en JavaScript para gestionar una lista de amigos y 
 
 📝 Objetivo
 
-El objetivo de este desafío es fortalecer mis habilidades en lógica de programación y complir con el Reto propusto por Alura.
+El objetivo de este desafío es fortalecer mis habilidades en lógica de programación y cumplir con el reto propuesto por Alura.
 
 🚀 Uso
 

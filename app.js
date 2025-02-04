@@ -15,6 +15,7 @@ const actualizarListaAmigos = () => {
   return lista;
 };
 
+
 const agregarAmigo = () => {
   //Obtener el valor del campo de texto correpondiente al nombre del amigo
   const amigo = document.getElementById("amigo").value;
@@ -42,6 +43,9 @@ const sortearAmigo = () => {
   const nombreAmigoAleatorio = amigos[indiceAleatorio];
   //Enviar el nombre del amigo aleatorio a la función de actualización de resultado
   actualizarResultado(nombreAmigoAleatorio);
+
+  //Ocultar la lista de amigos ingresado sin que se pierda la información
+  document.getElementById("listaAmigos").innerHTML = "";  
 };
 
 const actualizarResultado = (nombreAmigo) => {
@@ -50,5 +54,5 @@ const actualizarResultado = (nombreAmigo) => {
   listaResultado.innerHTML = "";
 
   //Agregar el nombre del amigo secreto a la lista
-  return (listaResultado.innerHTML += `<li>${nombreAmigo}</li>`);
+  return (listaResultado.innerHTML += `<li>El amigo secreto sorteado es: ${nombreAmigo}</li>`);
 };

@@ -26,7 +26,7 @@ const agregarAmigo = () => {
   //Insertar el nombre del amigo en el arreglo
   amigos.push(amigo);
   //Actualizar la lista de amigos en la interfaz gráfica
-  ActualizarListaAmigos();
+  actualizarListaAmigos();
   //Limpiar el campo de texto
   document.getElementById("amigo").value = "";
 };
